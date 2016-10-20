@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>Pixelated Crow</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style media="screen">
+        body {
+            background: linear-gradient(270deg, #0d1236, #495dea);
+            background-size: 400% 400%;
+            font-family: 'Roboto', sans-serif;
+            -webkit-animation: AnimationName 14s ease infinite;
+            -moz-animation: AnimationName 14s ease infinite;
+            animation: AnimationName 14s ease infinite;
+        }
+
+        @-webkit-keyframes AnimationName {
+            0% {
+                background-position: 0% 50%
+            }
+            50% {
+                background-position: 100% 50%
+            }
+            100% {
+                background-position: 0% 50%
+            }
+        }
+
+        @-moz-keyframes AnimationName {
+            0% {
+                background-position: 0% 50%
+            }
+            50% {
+                background-position: 100% 50%
+            }
+            100% {
+                background-position: 0% 50%
+            }
+        }
+
+        @keyframes AnimationName {
+            0% {
+                background-position: 0% 50%
+            }
+            50% {
+                background-position: 100% 50%
+            }
+            100% {
+                background-position: 0% 50%
+            }
+        }
+        #center {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 50px;
+        }
+        img
+        {
+            display: block;
+            margin: 0 auto;        }
+    </style>
+</head>
+<body>
+<div id="center">
+<img src="pixelatedcrow.png" alt="">
+<h1>Pixelated Crow</h1>
+</div>
+</body>
+</html>
